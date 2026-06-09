@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/

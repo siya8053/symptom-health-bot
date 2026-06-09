@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health AI</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="left">
+        <h1><i class="fa-solid fa-heart-pulse"></i> Listen to your body.</h1>
+
+        <p>
+            Tell us what you're feeling.
+            We'll analyze possible health conditions.
+        </p>
+    </div>
+</div>
+
+<div class="container">
+
+    <h2>
+        <i class="fa-solid fa-notes-medical"></i>
+        What are you feeling today?
+    </h2>
+
+    <div class="symptoms">
+
+        <button class="pill">Headache</button>
+        <button class="pill">Fever</button>
+        <button class="pill">Fatigue</button>
+        <button class="pill">Weakness</button>
+        <button class="pill">Anxiety</button>
+        <button class="pill">Chest tightness</button>
+        <button class="pill">Nausea</button>
+        <button class="pill">Dizziness</button>
+        <button class="pill">Cough</button>
+        <button class="pill">Sore throat</button>
+        <button class="pill">Runny nose</button>
+        <button class="pill">Body ache</button>
+        <button class="pill">Chills</button>
+        <button class="pill">Vomiting</button>
+        <button class="pill">Diarrhea</button>
+
+        <!-- NEW -->
+        <button class="pill">Sneezing</button>
+        <button class="pill">Stress</button>
+        <button class="pill">Low mood</button>
+        <button class="pill">Dry cough</button>
+        <button class="pill">Loss of taste</button>
+        <button class="pill">Loss of smell</button>
+        <button class="pill">Stomach pain</button>
+        <button class="pill">Joint pain</button>
+        <button class="pill">Muscle pain</button>
+        <button class="pill">Skin rash</button>
+        <button class="pill">Shortness of breath</button>
+        <button class="pill">Sweating</button>
+        <button class="pill">Blurred vision</button>
+        <button class="pill">Increased hunger</button>
+        <button class="pill">Excessive thirst</button>
+
+    </div>
+
+    <textarea id="extra"
+    placeholder="Tell us more...
+Example:
+fever, headache, vomiting, body ache"></textarea>
+
+    <button class="analyze-btn" onclick="analyze()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Analyze Symptoms
+    </button>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
