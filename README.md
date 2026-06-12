@@ -4,6 +4,7 @@
 > Designed for students and office workers who want quick, clear health insights — without the information overload.
 **Note:** This project was logic-designed by me. Code was AI-assisted, then understood and customized by me.
 ---
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://symptom-health-bot.onrender.com)
 
 ## 🤔 The Problem
 
